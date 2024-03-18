@@ -65,7 +65,7 @@ console.log(obj.age)
 
 
 // 객체를 JSON 문자열로 변환하여 로그에 나타내보세요.
-console.log(JSON.stringify({name:"Alice",age:30}))
+console.log(JSON.stringify(obj))
 
 
 // 8. Nullish Coalescing Operator

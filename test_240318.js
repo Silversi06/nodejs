@@ -24,13 +24,13 @@ console.log(addNumbers(7,5)); //addNumbers를 사용하여 7+5를 수행하시�
 // 4. object의 속성을 추가하고 활용하기 : 주어진 객체에 새로운 속성을 추가해보세요.
 const person4 = {
   name: 'Alice',
-  age: 25,
-  height: 170
+  age: 25
 };
 console.log(person4.name, person4.age);
 
 
 // 4-1. person 객체에 height 속성을 추가해보세요 (height 값은 170)
+person4.height = 170;
 
 
 // 4-2. person 객체의 name 속성과 age 속성을 출력해보세요
